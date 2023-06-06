@@ -1,6 +1,6 @@
 # Modality Shifts
 ## TLDR
-This repo contains supplemental materials accompanying the "Leverage Points in Modality Shifts: Comparing Language-only and Multimodal Word Representations" paper, presented at StarSEM 2023. 
+This repo contains supplemental materials accompanying the "[Leverage Points in Modality Shifts: Comparing Language-only and Multimodal Word Representations](http://arxiv.org/abs/2306.02348)" paper, presented at StarSEM 2023. 
 
 ## Data
 The dataset consists of word pairs. To collect them, we start with 1000 most frequent words in FastText. For each of them, we take 100 closest words, by cosine distance over FastText embeddings. We filter this list of pairs in several ways. 
